@@ -1,3 +1,4 @@
+
 nav{
 	height: 80px;
 	width: 100%;
@@ -62,12 +63,9 @@ nav li a:hover{
 		padding-left: 50px;
 	}
 
+
 nav ul li a{
 	font-size:  16px;
-}
-
-@media (max-width: 858px){
-	
 }
 
 
@@ -98,20 +96,19 @@ nav ul li a{
 a:hover,a.active{
 	background: none;
 	color:#0082e6;
+
+}
 }
 
-#check:checked ~ ul{
-	left: 0;
-}
-}
 
 footer{
-	display: flex;
+	margin-top: 50px;
 
 }
 
-.sections{
-	background: grey;
+#footer-section{
+	background: black;
+
 }
 
 .content-wrapper h2{
@@ -119,6 +116,7 @@ footer{
 	font-weight: bold;
     font-size: 40px;
    text-decoration: underline;
+   
 }
 
 .content-wrapper p{
@@ -130,13 +128,13 @@ footer{
 
 
 body{
-	background: url("img/haa.jpg");
+	background: url("img/bg1.png");
 	height: 100vh;
 	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
+	background-repeat: fill;
 
 }
+
 
 .Introduction {
 	width: 500px;
@@ -150,10 +148,10 @@ body{
 
 .Introduction h1{
 	text-align: center;
-	color: black;
+	color: white;
 	text-transform: uppercase;
 	font-size: 47px;
-	text-shadow: 2px 2px white;
+	text-shadow: 2px 2px black;
 
 
 
@@ -181,20 +179,20 @@ body{
 
 
 body.portfolio{
+
 	list-style: none;
 	background: url(img/bg2.jpg);
 	height: 100vh;
 	background-size: cover;
-	background-position: center;
 	background-repeat: no-repeat;
 }
 
 
 .container {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: 425px 450px 425px;
   grid-template-rows: 270px 270px;
-  grid-gap: 10px;
+  grid-gap: 7px;
   background-color: rgba(25, 25, 25, 0.5);
   padding: 10px;
 }
@@ -203,7 +201,8 @@ body.portfolio{
 	background: rgb(225, 255, 255, 0.8);
 	text-align: center;
 	padding: 20px 0;
-	font-size: 30px;
+	font-size: 20px;
+	color: rgb(25, 25, 25, 0.0);
 }
 
 .item1{
@@ -212,21 +211,90 @@ body.portfolio{
 	
 }
 .item1:hover{
-	transform: scale(1.1);
+	
+	color: black;
 
 
 }
 
 .item3{
 	height: 189%;
+	transition: 0.4s ease-in-out;
+
+}
+
+.item3:hover{
+	color: black;
+
+}
+
+.item2:hover{
+	color: black;
+	transition: 0.4s ease-in-out;
 }
 
 
-	
+.item4:hover{
+	color: black;
+	transition: 0.4s ease-in-out;
+
+}
 
 
 
 
+/*--------------contact-------------*/
+
+body.contact {
+	background: url(img/bg3.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+ .contact{
+	color: white;
+	font-size: 25px;
+
+}
+
+.holdon{
+	width: 500px;
+	height: 70px;
+	margin:20% 30%;
+	text-align-last: center;
+	color: white;
+	font-size: 25px;
+}
+
+.holdon a{
+    border: 1px solid white;
+	border-radius: 7px 7px 7px 7px;
+	padding: 10px 25px;
+	font-size: 25px;
+	display: inline-block;
+	color: black; 
+	background-color: #96a9ab;
+	text-shadow: 2px 2px 8px black;
+
+
+}
+
+.holdon h1{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 47px;
+	text-shadow: 2px 2px black;
+}
+
+.holdon a{
+	box-shadow: 0 0 35px #91dce3;
+}
+
+.holdon a:hover{
+	background-color: #a4b8ba;
+	transition: 0.6s;
+}
 
 
 
