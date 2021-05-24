@@ -1,10 +1,4 @@
-
-nav{
-	height: 80px;
-	width: 100%;
-
-}
-
+/*navbar*/
 label.logo{
 	font-weight: bold;
 	color: white;
@@ -44,7 +38,12 @@ nav ul li a{
 nav li a:hover{
 	background-color: rgba(91, 114, 71, 0.3);
 	color: pink;
+
 }
+
+/*navbar*/
+
+/*mediaquiry/**/
 
 .checkbtn{
 	font-size: 30px;
@@ -100,45 +99,45 @@ a:hover,a.active{
 }
 }
 
+/*mediaquiry/**/
 
-footer{
-	margin-top: 50px;
 
-}
+/*mainpage*/
+
 
 #footer-section{
-	background: black;
-
+	background: #0a0a0a;
+	margin-top: 200px;
 }
 
-.content-wrapper h2{
-	color: white;
+
+.socials h2{
+	color: #fff;
 	font-weight: bold;
-    font-size: 40px;
+    font-size: 35px;
    text-decoration: underline;
    
 }
 
-.content-wrapper p{
-	font-size: 25px;
+.socials p{
+	font-size: 23px;
 	color: white;
 	text-decoration: underline;
 }
 
-
-
 body{
 	background: url("img/bg1.png");
-	height: 100vh;
+	height: 125vh;
 	background-size: cover;
-	background-repeat: fill;
+	background-repeat: no-repeat;
+
 
 }
 
 
 .Introduction {
+	height: 290px;
 	width: 500px;
-	height: 300px;
 	margin:20% 30%;
 	text-align-last: center;
 	color: white;
@@ -176,19 +175,20 @@ body{
 	transition: 0.9s;
 }
 
+/*mainpageend/**/
+
 
 
 body.portfolio{
-
 	list-style: none;
-	background: url(img/bg2.jpg);
-	height: 100vh;
+	background: url("img/bg2.jpg");
+	height: 125vh;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
 
-.container {
+.holder {
   display: grid;
   grid-template-columns: 425px 450px 425px;
   grid-template-rows: 270px 270px;
@@ -197,21 +197,27 @@ body.portfolio{
   padding: 10px;
 }
 
-.container > div {
+.holder > div {
 	background: rgb(225, 255, 255, 0.8);
 	text-align: center;
 	padding: 20px 0;
 	font-size: 20px;
+	color: rgb(25, 25, 25, 0.9);
+}
+
+.holder > div:hover{
 	color: rgb(25, 25, 25, 0.0);
+
 }
 
 .item1{
+	background: url(img/1a.jpg);
 	grid-row: 1 / 3;
-	transition: 0.4s ease-in-out;
+	transition: 0.4s;
 	
 }
 .item1:hover{
-	
+	background: url(img/1.gif);
 	color: black;
 
 
@@ -224,51 +230,43 @@ body.portfolio{
 }
 
 .item3:hover{
+	background: url(img/waddle.gif);
 	color: black;
 
 }
 
 .item2:hover{
+	background: url(img/fin.gif);
 	color: black;
 	transition: 0.4s ease-in-out;
 }
 
 
 .item4:hover{
+	background: url(img/3.gif);
 	color: black;
 	transition: 0.4s ease-in-out;
 
 }
 
 
-
+/*endportfolio/*/
 
 /*--------------contact-------------*/
 
+
+
 body.contact {
-	background: url(img/bg3.jpg);
-	height: 100vh;
+	background: url("img/bg3.jpg");
+    	height: 125vh;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
- .contact{
-	color: white;
-	font-size: 25px;
 
-}
 
-.holdon{
-	width: 500px;
-	height: 70px;
-	margin:20% 30%;
-	text-align-last: center;
-	color: white;
-	font-size: 25px;
-}
-
-.holdon a{
-    border: 1px solid white;
+.show-btn {
+	 border: 1px solid white;
 	border-radius: 7px 7px 7px 7px;
 	padding: 10px 25px;
 	font-size: 25px;
@@ -276,25 +274,147 @@ body.contact {
 	color: black; 
 	background-color: #96a9ab;
 	text-shadow: 2px 2px 8px black;
-
-
+	
 }
 
-.holdon h1{
+.arrr h1{
+	padding-top: 150px;
+	color: white;
 	text-align: center;
 	text-transform: uppercase;
 	font-size: 47px;
 	text-shadow: 2px 2px black;
 }
 
-.holdon a{
+.arrr p{
+	height: 300PX;
+	color: white;
+	text-align: center;
+	font-size: 25px;
+}
+
+.show-btn:hover{
+	background-color: #a4b8ba;
+	transition: 0.6s;
 	box-shadow: 0 0 35px #91dce3;
 }
 
-.holdon a:hover{
-	background-color: #a4b8ba;
-	transition: 0.6s;
+
+
+
+.show-btn, .container{
+	margin-top: 110px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%); 
+
+
 }
+
+.container{
+	display: none;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 510px;
+	background: rgba(235, 218, 218);
+	padding: 60px;
+}
+
+
+#show:checked ~ .container{
+	display: block;
+}
+
+
+.container .close-btn{
+	position: absolute;
+	right: 50px;
+	top: 50px;
+	cursor: pointer;
+
+}
+
+
+
+.container .close-btn:hover{
+	color: #ff5f57;
+	cursor: pointer;
+}
+
+
+
+
+
+.container .text{
+	font-size: 40px;
+	font-weight: 600;
+    text-align: center;
+}	
+
+.container form .data{
+	height: 8px;
+	width:100%;
+	margin: 30px 30px;
+
+}
+
+input[type=text]{
+  width: 33%;
+  padding: 10px 20px;
+  margin: 20px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+
+}
+
+label {
+	font-size: 15px;
+}
+
+input[type=link]{
+	 width: 60%;
+	 padding: 10px 20px;
+
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #2d2e30;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+
+}  
+
+
+input[type=submit]:hover {
+	background: #211e1e;
+  
+
+
+}
+
+
+.container .close-btn{
+	position: absolute;
+	right: 50px;
+	top: 50px;
+	cursor: pointer;
+}
+
+
+
+#show{
+	display: none;
+}
+
+
 
 
 
