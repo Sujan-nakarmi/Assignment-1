@@ -415,14 +415,108 @@ input[type=submit]:hover {
 }
 
 
+/*cccccccccccccvvvvvvvvvvvv/**/
+
+
+body.cv{
+	background: url(img/cool.jpg);
+	height: 200vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+
+
+#qwe{
+	margin: 80px;
+	padding: 0;
+
+
+}
+
+.info{
+	background: black;
+	height: 110px;
+	text-align: center;
+	font-size: 80px;
+	color: white;
+	
+}
+
+
+.page{
+	margin: 0px;
+	background: rgba(222, 255, 252, 0.9);
+	height: 800px;
+}
+
+
+.resume{
+    margin: 0px 10px;
+	width: 600px;
+	height: 300px;
+	background: #fff;
+	
+
+
+}
+
+.point{
+	margin: 0px 20px;
+	float: left;
+}
+
+.point li{
+	font-size: 17px;
+}
 
 
 
+.right{
+	margin-left: 680px;
+}
 
 
+.img{
+	height: 20px;
+	width: 10px;
+}
+
+.ani{
+	background: white;
+	height: 190px;
+	width: 1150px;
+	position: relative;
+	margin-top: 400px;
+
+}
 
 
+.are{
+	position: absolute;
+	height: 190px;
+	width: 1150px;
+	
 
+}
+.are h1{
+	color: white;
+	text-align: center;
 
+}
+.are:hover{
+	background: black;
+	transition:0.3s;
+}
+
+.not{
+	z-index: 9;
+}
+
+.not h2{
+	color: black;
+	text-align: center;
+	font-size: 35px;
+}
 
 
