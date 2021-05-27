@@ -30,7 +30,6 @@ nav ul li a{
 	color: white;
 	padding: 10px 20px;
 	font-size: 24px;
-	font-family: serif;
 	text-shadow: 2px 2px 8px red;
 
 }
@@ -104,26 +103,98 @@ a:hover,a.active{
 
 /*mainpage*/
 
+/*footer/*/
 
 #footer-section{
-	background: #0a0a0a;
-	margin-top: 200px;
+	display: flex;
+	padding: 10px;
+	height: 400px;
+	background: black;
+	margin-top: 50px;
+	
+
 }
 
-
-.socials h2{
-	color: #fff;
-	font-weight: bold;
-    font-size: 35px;
-   text-decoration: underline;
-   
-}
-
-.socials p{
-	font-size: 23px;
+.socials h1{
+	font-size: 35px;
 	color: white;
-	text-decoration: underline;
 }
+
+.insta{
+	padding-top: 90px;
+	width: 150px;
+	background: linear-gradient(#c73065 20%, #fff947);
+	height: 50%;
+	
+}
+
+.insta p{
+	text-align: center;
+
+}
+
+.insta i{
+	margin-left:50px;
+}
+
+.insta:hover{
+	background: linear-gradient(to right, #c567eb 10%, #c73065);
+	transform: scale(1.1);
+	transition: 0.9s;
+}
+
+
+
+.facebook{
+	padding-top: 90px;
+	width: 150px;
+  background: linear-gradient(to bottom right, #0033cc 45%, #33ccff 90%);
+  height: 50%;
+	
+}
+
+.facebook p{
+	text-align: center;
+
+}
+
+.facebook i{
+	margin-left:50px;
+}
+
+.facebook:hover{
+    background: linear-gradient(to top left, #0033cc 45%, #33ccff 90%);
+    	transform: scale(1.1);
+	transition: 0.9s;
+
+}
+
+.twitter{
+	padding-top: 90px;
+	width: 150px;
+    background: linear-gradient(to top left, #99ccff 38%, #ccffff 92%);
+    	height: 50%;
+}
+
+.twitter p{
+	text-align: center;
+
+}
+
+
+.twitter i{
+	margin-left:50px;
+}
+
+.twitter:hover{
+    background: linear-gradient(to bottom right, #3399ff 25%, #ccffff 84%);
+    	transform: scale(1.1);
+	transition: 0.9s;
+
+
+}
+/*footer*/
+
 
 body{
 	background: url("img/bg1.png");
@@ -175,12 +246,27 @@ body{
 	transition: 0.9s;
 }
 
+.number{
+	margin-top:270px;
+	margin-left:450px;
+	color: white;
+}
+
+.number h1{
+	font-size: 33px;
+	text-decoration: underline;
+}
+
+.number p{
+	font-size: 25px;
+}
+
 /*mainpageend/**/
 
 
 
 body.portfolio{
-	list-style: none;
+
 	background: url("img/bg2.jpg");
 	height: 125vh;
 	background-size: cover;
@@ -195,6 +281,7 @@ body.portfolio{
   grid-gap: 7px;
   background-color: rgba(25, 25, 25, 0.5);
   padding: 10px;
+  margin-bottom: 160px;
 }
 
 .holder > div {
@@ -291,6 +378,7 @@ body.contact {
 	color: white;
 	text-align: center;
 	font-size: 25px;
+	margin-bottom: 250px;
 }
 
 .show-btn:hover{
@@ -345,9 +433,6 @@ body.contact {
 }
 
 
-
-
-
 .container .text{
 	font-size: 40px;
 	font-weight: 600;
@@ -369,10 +454,6 @@ input[type=text]{
   border: 1px solid #ccc;
   box-sizing: border-box;
 
-}
-
-label {
-	font-size: 15px;
 }
 
 input[type=link]{
@@ -502,11 +583,12 @@ body.cv{
 .are h1{
 	color: white;
 	text-align: center;
+	text-decoration: underline;
 
 }
 .are:hover{
 	background: black;
-	transition:0.3s;
+	transition:0.5s;
 }
 
 .not{
