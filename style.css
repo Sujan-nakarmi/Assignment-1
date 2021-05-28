@@ -44,15 +44,7 @@ nav li a:hover{
 
 /*mediaquiry/**/
 
-.checkbtn{
-	font-size: 30px;
-	color: white;
-	float: left;
-	line-height: 80px;
-	margin-right: 40px;
-	cursor: pointer;
-	
-}
+
 
 
 @media (max-width: 952px){
@@ -96,8 +88,13 @@ a:hover,a.active{
 	color:#0082e6;
 
 }
+
+
+#check:checked ~ ul{
+	left: 0;
 }
 
+}
 /*mediaquiry/**/
 
 
@@ -195,6 +192,21 @@ a:hover,a.active{
 }
 /*footer*/
 
+/*section*/
+
+section{
+
+}
+
+section h1{
+	font-size: 30px;
+}
+
+section li{
+	font-size: 18px;
+	margin-left: 20px;
+}
+
 
 body{
 	background: url("img/bg1.png");
@@ -217,14 +229,25 @@ body{
 }
 
 .Introduction h1{
-	text-align: center;
-	color: white;
-	text-transform: uppercase;
-	font-size: 47px;
-	text-shadow: 2px 2px black;
+  white-space:nowrap;
+  overflow:hidden;
+  animation:typing 2.5s steps(22,end) forwards,
+            blink 1s infinite;
+
+}
 
 
-
+@keyframes typing {
+  0% { width:0% }
+  100% { width:100% }
+}
+@keyframes blink {
+  0%,100% {
+    border-right:2px solid transparent;
+  }
+  50% {
+    border-right:2px solid lightblue;
+  }
 }
 
 .Introduction a{
@@ -266,7 +289,6 @@ body{
 
 
 body.portfolio{
-
 	background: url("img/bg2.jpg");
 	height: 125vh;
 	background-size: cover;
@@ -311,7 +333,7 @@ body.portfolio{
 }
 
 .item3{
-	height: 189%;
+	height: 188%;
 	transition: 0.4s ease-in-out;
 
 }
@@ -501,7 +523,7 @@ input[type=submit]:hover {
 
 body.cv{
 	background: url(img/cool.jpg);
-	height: 200vh;
+	height: 160vh;
 	background-size: cover;
 	background-repeat: no-repeat;
 
@@ -564,41 +586,46 @@ body.cv{
 }
 
 .ani{
-	background: white;
-	height: 190px;
-	width: 1150px;
-	position: relative;
-	margin-top: 400px;
+
 
 }
 
 
 .are{
-	position: absolute;
-	height: 190px;
-	width: 1150px;
+
+	background: white;
+	height: 200px;
+	width: 500px;
+	margin-top: 300px;
+
 	
 
 }
 .are h1{
-	color: white;
-	text-align: center;
+	color: black;
 	text-decoration: underline;
 
 }
-.are:hover{
-	background: black;
-	transition:0.5s;
+.are li{
+	margin-left: 25px;
+  font-size: 20px;
+
 }
 
+
 .not{
-	z-index: 9;
+	margin: 90px;
+	background: white;
+	width: 900px;
+	height: 200px;
 }
 
 .not h2{
-	color: black;
 	text-align: center;
-	font-size: 35px;
+	font-size: 33px;
 }
 
-
+.not p{
+	text-align: center;
+	font-size: 18px;
+}
