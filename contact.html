@@ -10,22 +10,54 @@
 <body class="contact">
 	<header>
 
-	 <nav>
-		<label class="logo">My Webpage</label>
-		<ul>
-			 <li><a href="index.html">Home</a></li>
+	  	<nav>
+		 	<input class="burger-btn" type="checkbox" id="burger-btn">
+		 	<label class="burger-icon" for="burger-btn"><span class="nav-icon"></span></label>			
+		<label class="logo">My Webpage</label>		 		
+		 		<ul class="menu">
+		 		   <li><a href="index.html">Home</a></li>
 		           <li><a href="portfolio.html">portfolio</a></li>
 		           <li><a href="contact.html">contact</a></li>
 		           <li><a href="cv.html">cv</a></li>
-	    </ul>
-	 </nav>
+		        </ul>   
+		           			
+		    </nav>	
+
 	<div class="arrr">
 	     	<h1>Contact us</h1>
 	     	<p>It will may take a while for us to response so, be patience for the reply.(note:Spamming email may result in ban. )  </p>
 	     </div>
 
-	     
-	<footer id ="footer-section">
+	     <div>	
+		<input type="checkbox" id="show">
+		<label for="show" class="show-btn">Contact Us</label>
+		<div class="container">
+			<label for="show" class="close-btn">X</label>
+			<div class="text">Contact Us</div>
+		<div>
+  <form>
+    <label for="fname">First Name:</label>
+    <input type="text" id="fname" name="firstname" placeholder="First name">
+
+    <label for="lname">Last Name:</label>
+    <input type="text" id="lname" name="lastname" placeholder="Last name">
+		
+	<label class="email" for="email">Email:</label>
+	<input type="text" id="email" name="Email" placeholder="kitty_cat@outlook.com">
+	<br>
+
+
+
+	      <label>Message.</label>
+				<textarea name="message" rows="11" cols="61" placeholder="Write here..."></textarea>
+				<br>
+
+				<input type="submit" name="submit" value="Send">
+			</form>
+		</div>
+	</div>
+
+			<footer>
 			<div class="socials" style="padding: 20px">
 					<h1>Follow us:</h1>	
 				</div>
@@ -49,34 +81,6 @@
 		   </div>
 	</footer>
 	</header>
-	
-	<div class="center">
-		<input type="checkbox" id="show">
-		<label for="show"class="show-btn">Contact Us</label>
-		<div class="container">
-			<label for="show" class="close-btn">X</label>
-			<div class="text">Contact Us</div>
-			<div>
-  <form action="/action_page.php">
-    <label for="fname">First Name:</label>
-    <input type="text" id="fname" name="firstname" placeholder="First name">
-
-    <label for="lname">Last Name:</label>
-    <input type="text" id="lname" name="lastname" placeholder="Last name">
-		
-
-	<label class="email" for="email">Email:</label>
-	<input type="link" id="email" name="Email" placeholder="kitty_cat@outlook.com">
-	<br>
-
-
-	      <label>Message.</label>
-				<textarea name="message" rows="11" cols="61" placeholder="Write here..."></textarea>
-				<br>
-
-				<input type="submit" name="submit" value="Send">
-
-			</form>
 		</div>
 	
 
