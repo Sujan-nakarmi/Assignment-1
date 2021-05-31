@@ -1,8 +1,7 @@
 /*navbar*/
 nav{
-	z-index: 1;
-	width: 100%;
-
+	position: ;
+	z-index: 3;
 }
 
 
@@ -29,7 +28,7 @@ nav ul li a{
 }
 
 nav li a:hover{
-	background-color: rgba(91, 114, 71, 0.3);
+	background-color: rgba(181, 152, 154, 0.3);
 	color: pink;
 
 }
@@ -41,6 +40,7 @@ label.logo{
 	display: block;
 	font-size: 40px;
 	padding: 10px 20px;
+	text-shadow: 2px 2px 2px black;
 }
 
 nav .menu{
@@ -67,7 +67,7 @@ nav .burger-icon .nav-icon{
 
 
 nav .burger-icon .nav-icon:before{
-	background: whitesmoke;
+	background: white;
 	content: "";
 	display: block;
 	height: 100%;
@@ -77,7 +77,7 @@ nav .burger-icon .nav-icon:before{
 }
 
 nav .burger-icon .nav-icon:after{
-	background: whitesmoke;
+	background: white;
 	content: "";
 	display: block;
 	height: 100%;
@@ -94,7 +94,7 @@ nav .burger-btn:checked ~ .menu{
 	max-height: 410px;
 }
 
-@media(min-width:780px){
+@media(min-width:801px){
 	nav li{
 		display: inline-block;
 		float: left;
@@ -428,7 +428,7 @@ body.portfolio{
 	color: black;
 }
 
-@media only screen and (max-width:780px){
+@media only screen and (max-width:801px){
 	.holder{
 		display: grid;
 		grid-template-columns: auto auto auto;
@@ -509,16 +509,62 @@ body.portfolio{
 	}
 
 	.page .not{
-		height: 75%;
+		height: 80%;
 		width: 100%;
-
+	}
+	img{
+		width: 100px;
+		height: 100px;
 	}
 
-	
+
+		@media only screen and (max-width:500px){
+
+			.Introduction a{
+				display: none;
+			}
+
+			img{
+		padding: 0;
+		width: 60px;
+		height: 60px;
+	}
+		.Introduction {
+	height: 290px;
+	width: 300px;
+	margin: 0;
+	padding: 10%;
+	color: white;
+	font-size: 15px;
+   
+  }
+
+  .Introduction h1{
+  white-space:nowrap;
+  overflow:hidden;
+  animation:typing 2.5s steps(22,end) forwards,
+            blink 1s infinite;
+
+  }
+
+
+  @keyframes typing {
+  0% { width:0% }
+  100% { width:100% }
+  }
+  @keyframes blink {
+  0%,100% {
+    border-right:2px solid transparent;
+  }
+  50% {
+    border-right:2px solid lightblue;
+  }
+
 }
 
 
-
+}
+}
 /*endportfolio/*/
 
 /*--------------contact-------------*/
@@ -713,7 +759,7 @@ body.cv{
 	display: flex;
 	margin: 0 20px;
 	background: rgba(222, 255, 252, 0.9);
-	height: 850px;
+	height: 860px;
 	width: 80%;
 	text-align: center;
 
@@ -787,7 +833,9 @@ body.cv{
 }
 
 
-
+.comments{
+	font-size: 17px;
+}
 
 body.sitereport{
 	background: black;
@@ -795,3 +843,5 @@ body.sitereport{
 	background-size: cover;
 	background-repeat: no-repeat;
 }
+
+
