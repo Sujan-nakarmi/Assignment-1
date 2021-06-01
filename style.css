@@ -1,11 +1,4 @@
 /*navbar*/
-nav{
-	position: ;
-	z-index: 3;
-}
-
-
-
 
 nav ul{
 	list-style: none;
@@ -838,10 +831,244 @@ body.cv{
 }
 
 body.sitereport{
-	background: black;
-	height: 160vh;
+	background: url(img/bg5.jpg);
+	height: 220vh;
 	background-size: cover;
-	background-repeat: no-repeat;
+	background-repeat: black;
+}
+.timber{
+	background: rgb(225, 255, 255, 0.3) ;
+}
+
+.timber h1{
+	color: white;
+	font-size: 33px;
+	text-shadow: 2px 2px 2px black;
+
+}
+.timber h2{
+	font-size: 25px;
+}
+.timber p{
+	font-weight: bold;
+	font-size: 20px;
+	color: black;
+}
+.timber a{
+		font-size: 22px;
+		text-decoration: underline;
+	color: black;
+
+
+}
+
+.timber a:hover{
+
+	color: red;
 }
 
 
+.never{
+	background: rgb(225, 255, 255, 0.3) ;
+}
+
+.never h1{
+	color: white;
+	font-size: 33px;
+	text-shadow: 2px 2px 2px black;
+
+}
+.never h2{
+	font-size: 25px;
+}
+.never p{
+	font-weight: bold;
+	font-size: 20px;
+	color: black;
+}
+.never a{
+		font-size: 22px;
+		text-decoration: underline;
+	color: blue;
+
+}
+
+.never a:hover{
+	color: red;
+}
+
+.gonna{
+	background: rgb(225, 255, 255, 0.3) ;
+}
+
+.gonna h1{
+	color: white;
+	font-size: 33px;
+	text-shadow: 2px 2px 2px black;
+
+}
+.gonna h2{
+	font-size: 25px;
+}
+.gonna p{
+	font-weight: bold;
+	font-size: 20px;
+	color: black;
+}
+.gonna a{
+		font-size: 22px;
+		text-decoration: underline;
+	color: blue;
+
+}
+
+.gonna a:hover{
+	color: red;
+}
+
+
+
+.give{
+	background: rgb(225, 255, 255, 0.3) ;
+}
+
+.give h1{
+	color: white;
+	font-size: 33px;
+	text-shadow: 2px 2px 2px black;
+
+}
+.give h2{
+	font-size: 25px;
+}
+.give p{
+	font-weight: bold;
+	font-size: 20px;
+	color: black;
+}
+.give a{
+		font-size: 22px;
+		text-decoration: underline;
+	color: blue;
+
+}
+
+.give a:hover{
+	color: red;
+}
+
+.you{
+	background: rgb(225, 255, 255, 0.3) ;
+}
+
+.you h1{
+	color: white;
+	font-size: 33px;
+	text-shadow: 2px 2px 2px black;
+
+}
+.you h2{
+	font-size: 25px;
+}
+.you p{
+	font-weight: bold;
+	font-size: 20px;
+	color: black;
+}
+.you a{
+		font-size: 22px;
+		text-decoration: underline;
+	color: blue;
+
+}
+
+.you a:hover{
+	color: red;
+}
+
+.up{
+	background: rgb(225, 255, 255, 0.3) ;
+}
+
+.up h1{
+	color: white;
+	font-size: 33px;
+	text-shadow: 2px 2px 2px black;
+
+}
+.up h2{
+	font-size: 25px;
+}
+.up p{
+	font-weight: bold;
+	font-size: 20px;
+	color: black;
+}
+.up a{
+		font-size: 22px;
+		text-decoration: underline;
+	color: blue;
+
+}
+
+.up a:hover{
+	color: red;
+}
+
+.leaf{
+	background: rgb(225, 255, 255, 0.3) ;
+}
+
+.leaf h1{
+	color: white;
+	font-size: 33px;
+	text-shadow: 2px 2px 2px black;
+
+}
+.give h2{
+	leaf: 25px;
+}
+.leaf p{
+	font-weight: bold;
+	font-size: 20px;
+	color: black;
+}
+.leaf a{
+		font-size: 22px;
+		text-decoration: underline;
+	color: blue;
+
+}
+
+.leaf a:hover{
+	color: red;
+}
+
+.issue{
+	background: rgb(225, 255, 255, 0.3) ;
+}
+
+.issue h1{
+	color: white;
+	font-size: 33px;
+	text-shadow: 2px 2px 2px black;
+
+}
+.issue h2{
+	font-size: 25px;
+}
+.issue p{
+	font-weight: bold;
+	font-size: 20px;
+	color: black;
+}
+.issue a{
+		font-size: 22px;
+		text-decoration: underline;
+	color: blue;
+
+}
+
+.issue a:hover{
+	color: red;
+}
