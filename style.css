@@ -1,4 +1,3 @@
-/*navbar*/
 
 nav ul{
 	list-style: none;
@@ -107,19 +106,6 @@ nav .burger-btn:checked ~ .menu{
 }
 
 
-/*navbar*/
-
-/*mediaquiry/**/
-
-
-
-/*mediaquiry/**/
-
-
-/*mainpage*/
-
-/*footer/*/
-
 footer{
 	display: flex;
 	padding: 10px;
@@ -226,11 +212,6 @@ footer{
 }
 
 
-
-/*footer*/
-
-/*section*/
-
 section{
 
 }
@@ -248,7 +229,7 @@ section li{
 
 
 body{
-	background: url("img/bg1.png");
+	background: url("bg1.png");
 	height: 125vh;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -310,14 +291,8 @@ body{
 
 
 
-
-/*mainpageend/**/
-
-
-
-
 body.portfolio{
-	background: url("img/bg2.jpg");
+	background: url("bg2.jpg");
 	height: 125vh;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -558,14 +533,10 @@ body.portfolio{
 
 }
 }
-/*endportfolio/*/
-
-/*--------------contact-------------*/
-
 
 
 body.contact {
-	background: url("img/bg3.jpg");
+	background: url("bg3.jpg");
     	height: 125vh;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -600,7 +571,6 @@ body.contact {
 }
 
 .arrr p{
-	height: ;
 	color: white;
 	text-align: center;
 	font-size: 25px;
@@ -717,11 +687,9 @@ input[type=submit]:hover {
 }
 
 
-/*cccccccccccccvvvvvvvvvvvv/**/
-
 
 body.cv{
-	background: url(img/cool.jpg);
+	background: url(bg4.jpg);
 	height: 160vh;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -831,13 +799,13 @@ body.cv{
 }
 
 body.sitereport{
-	background: url(img/bg5.jpg);
+	background: url(bg5.jpg);
 	height: 220vh;
 	background-size: cover;
-	background-repeat: black;
+	background-repeat: once;
 }
 .timber{
-	background: rgb(225, 255, 255, 0.3) ;
+	background: rgb(225, 255, 255, 0.4) ;
 }
 
 .timber h1{
@@ -847,7 +815,8 @@ body.sitereport{
 
 }
 .timber h2{
-	font-size: 25px;
+	color: white;
+	font-size: 28px;
 }
 .timber p{
 	font-weight: bold;
@@ -857,7 +826,7 @@ body.sitereport{
 .timber a{
 		font-size: 22px;
 		text-decoration: underline;
-	color: black;
+	color: mediumblue;
 
 
 }
@@ -869,25 +838,23 @@ body.sitereport{
 
 
 .never{
-	background: rgb(225, 255, 255, 0.3) ;
+	background: rgb(225, 255, 255, 0.4) ;
 }
 
-.never h1{
+.never h2{
 	color: white;
 	font-size: 33px;
 	text-shadow: 2px 2px 2px black;
 
 }
-.never h2{
-	font-size: 25px;
-}
+
 .never p{
 	font-weight: bold;
 	font-size: 20px;
 	color: black;
 }
 .never a{
-		font-size: 22px;
+		font-size: 21px;
 		text-decoration: underline;
 	color: blue;
 
@@ -898,17 +865,14 @@ body.sitereport{
 }
 
 .gonna{
-	background: rgb(225, 255, 255, 0.3) ;
+	background: rgb(225, 255, 255, 0.6) ;
 }
 
-.gonna h1{
+.gonna h2{
 	color: white;
 	font-size: 33px;
-	text-shadow: 2px 2px 2px black;
+	text-shadow: 1px 1px 1px black;
 
-}
-.gonna h2{
-	font-size: 25px;
 }
 .gonna p{
 	font-weight: bold;
@@ -916,7 +880,7 @@ body.sitereport{
 	color: black;
 }
 .gonna a{
-		font-size: 22px;
+		font-size: 21px;
 		text-decoration: underline;
 	color: blue;
 
@@ -929,25 +893,23 @@ body.sitereport{
 
 
 .give{
-	background: rgb(225, 255, 255, 0.3) ;
+	background: rgb(225, 255, 255, 0.6) ;
 }
 
-.give h1{
+.give h2{
 	color: white;
 	font-size: 33px;
 	text-shadow: 2px 2px 2px black;
 
 }
-.give h2{
-	font-size: 25px;
-}
+
 .give p{
 	font-weight: bold;
 	font-size: 20px;
 	color: black;
 }
 .give a{
-		font-size: 22px;
+		font-size: 21px;
 		text-decoration: underline;
 	color: blue;
 
@@ -958,17 +920,14 @@ body.sitereport{
 }
 
 .you{
-	background: rgb(225, 255, 255, 0.3) ;
+	background: rgb(225, 255, 255, 0.7);
 }
 
-.you h1{
+.you h2{
 	color: white;
 	font-size: 33px;
 	text-shadow: 2px 2px 2px black;
 
-}
-.you h2{
-	font-size: 25px;
 }
 .you p{
 	font-weight: bold;
@@ -976,7 +935,7 @@ body.sitereport{
 	color: black;
 }
 .you a{
-		font-size: 22px;
+		font-size: 21px;
 		text-decoration: underline;
 	color: blue;
 
@@ -987,25 +946,23 @@ body.sitereport{
 }
 
 .up{
-	background: rgb(225, 255, 255, 0.3) ;
+	background: rgb(225, 255, 255, 0.6) ;
 }
 
-.up h1{
+.up h2{
 	color: white;
 	font-size: 33px;
 	text-shadow: 2px 2px 2px black;
 
 }
-.up h2{
-	font-size: 25px;
-}
+
 .up p{
 	font-weight: bold;
 	font-size: 20px;
 	color: black;
 }
 .up a{
-		font-size: 22px;
+		font-size: 21px;
 		text-decoration: underline;
 	color: blue;
 
@@ -1016,54 +973,47 @@ body.sitereport{
 }
 
 .leaf{
-	background: rgb(225, 255, 255, 0.3) ;
+	background: rgb(25, 25, 25, 0.5) ;
 }
 
-.leaf h1{
+.leaf h2{
 	color: white;
 	font-size: 33px;
 	text-shadow: 2px 2px 2px black;
 
 }
-.give h2{
-	leaf: 25px;
-}
+
 .leaf p{
 	font-weight: bold;
 	font-size: 20px;
-	color: black;
+	color: white;
 }
 .leaf a{
-		font-size: 22px;
+		font-size: 21px;
 		text-decoration: underline;
 	color: blue;
 
 }
 
-.leaf a:hover{
-	color: red;
-}
 
 .issue{
 	background: rgb(225, 255, 255, 0.3) ;
 }
 
-.issue h1{
+.issue h2{
 	color: white;
 	font-size: 33px;
 	text-shadow: 2px 2px 2px black;
 
 }
-.issue h2{
-	font-size: 25px;
-}
+
 .issue p{
 	font-weight: bold;
 	font-size: 20px;
 	color: black;
 }
 .issue a{
-		font-size: 22px;
+		font-size: 21px;
 		text-decoration: underline;
 	color: blue;
 
@@ -1072,3 +1022,42 @@ body.sitereport{
 .issue a:hover{
 	color: red;
 }
+
+.validation img{
+	height: 250px;
+	width: 250px;
+}
+
+.atlast{
+	background: rgb(225, 255, 255, 0.6) ;
+}
+
+.atlast h2{
+	color: white;
+	font-size: 33px;
+	text-shadow: 2px 2px 2px black;
+
+}
+
+.atlast p{
+	font-weight: bold;
+	font-size: 20px;
+	color: black;
+}
+.atlast a{
+		font-size: 21px;
+		text-decoration: underline;
+	color: blue;
+
+}
+
+.atlast a:hover{
+	color: red;
+}
+
+
+footer .ring{
+	background: black;
+	height: 100%;
+}
+
