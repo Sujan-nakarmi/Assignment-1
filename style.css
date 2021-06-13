@@ -131,12 +131,11 @@ footer{
 }
 
 .insta p{
+	color: white;
 	text-align: center;
+	text-shadow: 2px 2px 2px red;
 
-}
 
-.insta i{
-	margin-left:35%;
 }
 
 .insta:hover{
@@ -156,13 +155,12 @@ footer{
 }
 
 .facebook p{
+	color: white;
 	text-align: center;
+	text-shadow: 1px 1px 2px black;
 
 }
 
-.facebook i{
-	margin-left: 35%;
-}
 
 .facebook:hover{
     background: linear-gradient(to top left, #0033cc 45%, #33ccff 90%);
@@ -179,14 +177,13 @@ footer{
 }
 
 .twitter p{
+	color: white;
 	text-align: center;
+	text-shadow: 2px 2px 2px green;
 
 }
 
 
-.twitter i{
-	margin-left: 35%;
-}
 
 .twitter:hover{
     background: linear-gradient(to bottom right, #3399ff 25%, #ccffff 84%);
@@ -330,7 +327,6 @@ body.portfolio{
 	
 }
 .item1:hover{
-	background: 
 	color: black;
 
 
@@ -347,7 +343,6 @@ body.portfolio{
 }
 
 .item2:hover{
-	background: 
 	color: black;
 	transition: 0.4s;
 }
@@ -381,7 +376,6 @@ body.portfolio{
 
 
 .item4:hover{
-	background: 
 	color: black;
 	transition: 0.4s ease-in-out;
 }
@@ -408,22 +402,24 @@ body.portfolio{
 	.insta{
 		width: 90px;
 	}
-	.insta i{
-		margin: 20px;
+
+
+	.insta p{
+		font-size: 20px;
 
 	}
 
 	.facebook{
 		width: 90px;
 	}
-	.facebook i{
-  margin: 20px;
+	.facebook p{
+		font-size: 20px;
 	}
 	.twitter{
 		width: 90px;
 	}
-	.twitter i{
-		margin: 20px;
+	.twitter p{
+		font-size: 20px;
 	}
 
 
@@ -802,10 +798,10 @@ body.sitereport{
 	background: url(bg5.jpg);
 	height: 220vh;
 	background-size: cover;
-	background-repeat: once;
+
 }
 .timber{
-	background: rgb(225, 255, 255, 0.4) ;
+	background: rgb(225, 255, 255, 0.4);
 }
 
 .timber h1{
@@ -1025,7 +1021,7 @@ body.sitereport{
 
 .validation img{
 	height: 250px;
-	width: 250px;
+	width: 217px;
 }
 
 .atlast{
@@ -1053,11 +1049,5 @@ body.sitereport{
 
 .atlast a:hover{
 	color: red;
-}
-
-
-footer .ring{
-	background: black;
-	height: 100%;
 }
 
